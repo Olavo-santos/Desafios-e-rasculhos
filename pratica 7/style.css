@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: rgb(0, 132, 255);
+    --cor2: rgb(0, 255, 221);
+    --cor3: rgb(15, 15, 202);
+    --cor4: rgb(0, 89, 255);
+    --font-padrao:'Prompt', sans-serif;
+    --font-destaque:'Staatliches', sans-serif;
+}
+body {
+    background-color: var(--cor4);
+
+}
+article > h1 {
+    font-family: var(--font-destaque);
+    background-color: white;
+    color: var(--cor1);
+    padding: 10px;
+    margin: auto;
+}
